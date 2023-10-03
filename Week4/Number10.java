@@ -2,7 +2,7 @@ package array2;
 
 import java.util.Random;
 
-public class Radom {
+public class Number10 {
     public static void main(String[] args) {
         Random r = new Random();
         int num = 0;
