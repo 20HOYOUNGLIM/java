@@ -3,7 +3,7 @@ package array2;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Keyboard {
+public class Number8 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         Random ram = new Random();
