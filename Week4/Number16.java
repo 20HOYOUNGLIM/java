@@ -3,7 +3,7 @@ package array2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Aeaeae {
+public class Number16 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		
