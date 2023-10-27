@@ -18,13 +18,8 @@ class Circle {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
-
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
         Circle otherCircle = (Circle) obj;
         return this.x == otherCircle.x && this.y == otherCircle.y;
     }
