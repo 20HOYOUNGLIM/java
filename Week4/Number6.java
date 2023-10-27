@@ -2,7 +2,7 @@ package array2;
 
 import java.util.Scanner;
 
-public class Money {
+public class Number6 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int [] unit = {50000, 10000, 1000, 500, 100, 50, 10, 1};
