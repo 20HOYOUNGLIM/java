@@ -1,6 +1,6 @@
 package array2;
 
-public class Skriptoo {
+public class Number12 {
 	public static void main(String[] args) {
 		
 		int num = 0;
