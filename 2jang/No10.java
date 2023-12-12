@@ -1,22 +1,22 @@
 import java.util.Scanner;
 public class No10 {
 	public static void main(String[] args) {
-		System.out.println("Ã¹ ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>>");
+		System.out.println("ì²« ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>>");
 	Scanner s=new Scanner(System.in);
 	int x=s.nextInt();
 	int x1=s.nextInt();
 	double r=s.nextDouble();
 	
-	System.out.println("µÎ ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>>");
+	System.out.println("ë‘ ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>>");
 	int y=s.nextInt();
 	int y1=s.nextInt();
 	double r1=s.nextDouble();
 	double distance=0;
 	distance = Math.sqrt((x-x1)*(x-x1)+(y-y1)*(y-y1));
 	if (distance<=r+r1) 
-		System.out.println("µÎ ¿øÀº ¼­·Î °ãÄ£´Ù.");
+		System.out.println("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.");
 	else
-		System.out.println("µÎ ¿øÀº ¼­·Î ¾È°ãÄ£´Ù.");
+		System.out.println("ë‘ ì›ì€ ì„œë¡œ ì•ˆê²¹ì¹œë‹¤.");
 	s.close();	
 	}
 }
